@@ -1,159 +1,140 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="google-site-verification" content="dq6MSznC4OZGtdD-6Y6yI77zFwy9RqlPNQg7Q9zgplE" />
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="محمد نجارنیکو؛ آموزش و تحلیل بازارهای مالی، ارزهای دیجیتال، NFT و فناوری بلاکچین.">
-<meta name="theme-color" content="#090909">
-<title>محمد نجارنیکو | کریپتو، NFT و بازارهای مالی</title>
-<style>
-:root{--gold:#d6ad55;--bg:#090909;--card:#151515;--muted:#b7b7b7}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:#f5f5f5;font-family:Tahoma,Arial,sans-serif;line-height:2}
-a{color:var(--gold);text-decoration:none}
-.container{width:min(1080px,90%);margin:auto}
-header{padding:22px 0;border-bottom:1px solid #292929}
-nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
-.logo{font-size:21px;font-weight:bold;color:var(--gold)}
-nav a{margin:0 8px;color:#ddd;font-size:14px}
-.hero{padding:85px 0 65px;text-align:center;background:radial-gradient(ellipse at top,#292012 0%,#090909 65%)}
-.eyebrow{color:var(--gold);letter-spacing:2px;font-size:13px}
-h1{font-size:clamp(32px,6vw,54px);margin:15px 0;color:var(--gold)}
-.hero p{max-width:720px;margin:15px auto;color:#ddd}
-.btn{display:inline-block;background:var(--gold);color:#111;padding:10px 24px;border-radius:7px;margin:12px 5px;font-weight:bold}
-.btn.secondary{background:transparent;border:1px solid var(--gold);color:var(--gold)}
-section{padding:48px 0}
-h2{color:var(--gold);font-size:25px;margin-bottom:20px}
-.intro{max-width:850px;color:#ddd}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:17px}
-.card{background:var(--card);border:1px solid #292929;border-radius:12px;padding:22px}
-.card h3{color:var(--gold);margin-top:0}
-.card p{color:#ccc;font-size:14px}
-.tag{display:inline-block;border:1px solid #594522;color:var(--gold);border-radius:20px;padding:3px 12px;margin:4px;font-size:12px}
-.note{background:#17140e;border-right:3px solid var(--gold);padding:17px;color:#ddd;border-radius:5px}
-footer{border-top:1px solid #292929;padding:28px 0;text-align:center;color:#999;font-size:13px}
-.contact{display:flex;gap:12px;flex-wrap:wrap}
-.contact a{border:1px solid #594522;padding:8px 15px;border-radius:7px}
-</style>
-</head>
-<body>
-<header>
-<div class="container">
-<nav>
-<div class="logo">MOHAMMAD NAJARNIKOO</div>
-<div>
-<a href="#about">درباره من</a>
-<a href="#services">حوزه فعالیت</a>
-<a href="#education">آموزش</a>
-<a href="#contact">ارتباط</a>
-</div>
-</nav>
-</div>
-</header>
+  <meta name="description" content="محمد نجارنیکو | مدرس و تحلیلگر بازارهای مالی، ارزهای دیجیتال، NFT و بلاکچین. آموزش اصولی، تحلیل واقع‌بینانه و مدیریت ریسک.">
+  <meta name="keywords" content="محمد نجارنیکو, آموزش کریپتو, تحلیل تکنیکال, NFT, بلاکچین, بازارهای مالی, ارز دیجیتال">
+  <meta name="author" content="محمد نجارنیکو">
+  <meta property="og:title" content="محمد نجارنیکو | کریپتو، NFT و بازارهای مالی">
+  <meta property="og:description" content="فعال، مدرس و تحلیلگر بازارهای مالی با تمرکز بر ارزهای دیجیتال، فناوری بلاکچین و NFT">
+  <meta property="og:image" content="profile.jpg">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>محمد نجارنیکو | کریپتو، NFT و بازارهای مالی</title>
+  <style>
+    :root {
+      --gold: #d4af37;
+      --gold-light: #e8c872;
+      --bg: #0a0a0a;
+      --card: #141414;
+      --card-hover: #1a1a1a;
+      --text: #f0f0f0;
+      --muted: #a0a0a0;
+      --border: #2a2a2a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Tahoma, 'Segoe UI', Arial, sans-serif;
+      line-height: 1.8;
+    }
+    a { color: var(--gold); text-decoration: none; transition: 0.2s; }
+    a:hover { color: var(--gold-light); }
+    .container { width: min(1100px, 92%); margin: 0 auto; }
+    
+    /* Header */
+    header {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: rgba(10,10,10,0.95);
+      backdrop-filter: blur(10px);
+      z-index: 100;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .logo { font-size: 18px; font-weight: 700; color: var(--gold); letter-spacing: 1px; }
+    nav .links a {
+      margin: 0 10px;
+      color: #ccc;
+      font-size: 14px;
+    }
+    nav .links a:hover { color: var(--gold); }
 
-<main>
-<div class="hero">
-<div class="container">
-<div class="eyebrow">FINANCIAL MARKETS | CRYPTO | NFT</div>
-<h1>محمد نجارنیکو</h1>
-<p>فعال، مدرس و تحلیلگر بازارهای مالی با تمرکز بر ارزهای دیجیتال، فناوری بلاکچین و NFT</p>
-<p>یادگیری اصولی، تحلیل واقع‌بینانه و مدیریت ریسک؛ سه اصل مهم در مسیر فعالیت حرفه‌ای در بازارهای مالی.</p>
-<a class="btn" href="#about">آشنایی بیشتر</a>
-<a class="btn secondary" href="#contact">ارتباط با من</a>
-</div>
-</div>
+    /* Hero */
+    .hero {
+      padding: 70px 0 60px;
+      text-align: center;
+      background: radial-gradient(ellipse at 50% 0%, #1f1808 0%, #0a0a0a 70%);
+    }
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--gold);
+      margin-bottom: 22px;
+      box-shadow: 0 0 30px rgba(212,175,55,0.25);
+    }
+    .eyebrow {
+      color: var(--gold);
+      font-size: 13px;
+      letter-spacing: 2px;
+      margin-bottom: 8px;
+    }
+    h1 {
+      font-size: clamp(28px, 5.5vw, 46px);
+      color: var(--gold);
+      margin: 8px 0 12px;
+    }
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 18px;
+      color: #ccc;
+      font-size: 15px;
+    }
+    .btn {
+      display: inline-block;
+      background: var(--gold);
+      color: #111;
+      padding: 11px 26px;
+      border-radius: 8px;
+      font-weight: 700;
+      margin: 6px;
+      transition: 0.2s;
+    }
+    .btn:hover { background: var(--gold-light); transform: translateY(-1px); }
+    .btn.secondary {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+    }
+    .btn.secondary:hover { background: rgba(212,175,55,0.1); }
 
-<div class="container">
-<section id="about">
-<h2>درباره من</h2>
-<p class="intro">
-من محمد نجارنیکو هستم. از سال ۱۳۹۷ فعالیت خود را در بازارهای مالی آغاز کرده‌ام و از سال ۱۴۰۲ در زمینه آموزش فعالیت دارم.
-تمرکز من بر شناخت بازارهای مالی، تحلیل ارزهای دیجیتال، بررسی پروژه‌های NFT و آشنایی با فناوری بلاکچین است.
-هدف من انتقال دانش کاربردی و کمک به درک بهتر فرصت‌ها و ریسک‌های بازار است.
-</p>
-</section>
+    /* Sections */
+    section { padding: 55px 0; }
+    h2 {
+      color: var(--gold);
+      font-size: 24px;
+      margin-bottom: 22px;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background: var(--gold);
+      margin-top: 8px;
+      border-radius: 2px;
+    }
+    .intro { color: #ccc; max-width: 850px; font-size: 15px; }
 
-<section id="services">
-<h2>حوزه‌های فعالیت</h2>
-<div class="grid">
-<div class="card">
-<h3>بازار ارزهای دیجیتال</h3>
-<p>بررسی ساختار بازار، شناخت رمزارزها، تحلیل روندها و ارزیابی فرصت‌های معاملاتی.</p>
-</div>
-<div class="card">
-<h3>تحلیل تکنیکال</h3>
-<p>مطالعه نمودارها، سطوح حمایت و مقاومت، روندها و ابزارهای تحلیل تکنیکال.</p>
-</div>
-<div class="card">
-<h3>فیوچرز و مدیریت ریسک</h3>
-<p>آشنایی با معاملات اهرمی، حد ضرر، اندازه موقعیت و اصول کنترل سرمایه.</p>
-</div>
-<div class="card">
-<h3>NFT و بلاکچین</h3>
-<p>بررسی پروژه‌های NFT، اکوسیستم‌های دیجیتال و کاربردهای فناوری بلاکچین.</p>
-</div>
-<div class="card">
-<h3>آموزش بازارهای مالی</h3>
-<p>آموزش مفاهیم از سطح مقدماتی تا پیشرفته با تأکید بر درک و تمرین عملی.</p>
-</div>
-<div class="card">
-<h3>تحلیل بنیادی و اخبار</h3>
-<p>بررسی عوامل اقتصادی، اخبار اثرگذار و اطلاعات مرتبط با پروژه‌های دیجیتال.</p>
-</div>
-</div>
-</section>
-
-<section id="education">
-<h2>رویکرد آموزشی</h2>
-<div class="grid">
-<div class="card">
-<h3>آموزش از پایه</h3>
-<p>توضیح مفاهیم پیچیده با زبان ساده و مثال‌های قابل فهم.</p>
-</div>
-<div class="card">
-<h3>تمرین عملی</h3>
-<p>تمرکز بر مهارت تحلیل، بررسی سناریوها و تصمیم‌گیری آگاهانه.</p>
-</div>
-<div class="card">
-<h3>مدیریت سرمایه</h3>
-<p>شناخت ریسک پیش از ورود به معامله و پرهیز از تصمیم‌های هیجانی.</p>
-</div>
-</div>
-</section>
-
-<section>
-<h2>اصول حرفه‌ای من</h2>
-<div class="note">
-هیچ معامله‌ای بدون ریسک نیست و هیچ سودی تضمین‌شده نیست. اولویت من آموزش، تحلیل مسئولانه و حفظ سرمایه است.
-</div>
-<p>
-<span class="tag">تحلیل بازار</span>
-<span class="tag">مدیریت ریسک</span>
-<span class="tag">آموزش کاربردی</span>
-<span class="tag">بلاکچین</span>
-<span class="tag">NFT</span>
-</p>
-</section>
-
-<section id="contact">
-<h2>ارتباط با من</h2>
-<p>برای ارتباط، همکاری و اطلاع از فعالیت‌های آموزشی می‌توانی از راه‌های زیر استفاده کنی.</p>
-<div class="contact">
-<a href="mailto:contact@example.com">ایمیل</a>
-</div>
-<p style="color:#999;font-size:12px">راه‌های ارتباطی و شبکه‌های اجتماعی در نسخه بعدی تکمیل خواهند شد.</p>
-</section>
-</div>
-</main>
-
-<footer>
-<div class="container">
-© 2026 Mohammad Najarnikoo — All Rights Reserved
-<br>
-Financial Markets | Cryptocurrency | NFT | Blockchain
-</div>
-</footer>
-</body>
-</html>
+    /* Cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px
