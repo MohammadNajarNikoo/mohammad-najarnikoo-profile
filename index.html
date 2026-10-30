@@ -1,380 +1,208 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="dq6MSznC4OZGtdD-6Y6yI77zFwy9RqlPNQg7Q9zgplE" />
-  
-  <title>محمد نجارنیکو | آموزش و تحلیل کریپتو، بیتکوین، اتریوم و بازارهای مالی</title>
-  <meta name="description" content="محمد نجارنیکو، مدرس و تحلیلگر بازارهای مالی و ارزهای دیجیتال. آموزش اصولی بیتکوین، اتریوم، تحلیل تکنیکال، فیوچرز، NFT، اسمارت مانی، FVG و مدیریت ریسک در بازار کریپتو.">
-  <meta name="keywords" content="محمد نجارنیکو, آموزش کریپتو, تحلیل بیتکوین, اتریوم, رمز ارز, تحلیل تکنیکال, فیوچرز, NFT, بلاکچین, اسمارت مانی, FVG, اندیکاتور">
-  <meta name="author" content="محمد نجارنیکو">
-  <meta name="robots" content="index, follow">
-  
-  <meta property="og:title" content="محمد نجارنیکو | آموزش و تحلیل کریپتو و بازارهای مالی">
-  <meta property="og:description" content="مدرس و تحلیلگر ارزهای دیجیتال، بیتکوین، اتریوم، اسمارت مانی، FVG و مدیریت ریسک">
-  <meta property="og:image" content="https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/profile.jpg">
-  <meta property="og:url" content="https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/">
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="fa_IR">
-  
-  <meta name="theme-color" content="#0a0a0a">
-  <link rel="canonical" href="https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/">
-
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "محمد نجارنیکو",
-    "alternateName": "Mohammad Najarnikoo",
-    "url": "https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/",
-    "image": "https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/profile.jpg",
-    "jobTitle": "مدرس و تحلیلگر بازارهای مالی و ارزهای دیجیتال",
-    "email": "mohammadnikoo.crypto@gmail.com",
-    "description": "فعال، مدرس و تحلیلگر بازارهای مالی با تمرکز بر ارزهای دیجیتال، بیتکوین، اتریوم، فناوری بلاکچین و NFT",
-    "knowsAbout": ["کریپتو", "بیتکوین", "اتریوم", "تحلیل تکنیکال", "فیوچرز", "NFT", "بلاکچین", "اسمارت مانی", "FVG", "مدیریت ریسک"]
-  }
-  </script>
-
-  <style>
-    :root {
-      --gold: #d4af37;
-      --gold-light: #e8c872;
-      --bg: #0a0a0a;
-      --card: #141414;
-      --card-hover: #1a1a1a;
-      --text: #f0f0f0;
-      --muted: #a0a0a0;
-      --border: #2a2a2a;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: Tahoma, 'Segoe UI', Arial, sans-serif;
-      line-height: 1.8;
-    }
-    a { color: var(--gold); text-decoration: none; transition: 0.2s; }
-    a:hover { color: var(--gold-light); }
-    .container { width: min(1100px, 92%); margin: 0 auto; }
-    
-    header {
-      padding: 18px 0;
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 0;
-      background: rgba(10,10,10,0.95);
-      backdrop-filter: blur(10px);
-      z-index: 100;
-    }
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .logo { font-size: 16px; font-weight: 700; color: var(--gold); }
-    nav .links a {
-      margin: 0 8px;
-      color: #ccc;
-      font-size: 13.5px;
-    }
-    nav .links a:hover { color: var(--gold); }
-
-    .hero {
-      padding: 60px 0 50px;
-      text-align: center;
-      background: radial-gradient(ellipse at 50% 0%, #1f1808 0%, #0a0a0a 70%);
-    }
-    .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      border: 3px solid var(--gold);
-      margin-bottom: 18px;
-      box-shadow: 0 0 28px rgba(212,175,55,0.25);
-    }
-    .eyebrow {
-      color: var(--gold);
-      font-size: 13px;
-      letter-spacing: 1.5px;
-      margin-bottom: 8px;
-    }
-    h1 {
-      font-size: clamp(26px, 5vw, 40px);
-      color: var(--gold);
-      margin: 8px 0 12px;
-    }
-    .hero p {
-      max-width: 700px;
-      margin: 0 auto 14px;
-      color: #ccc;
-      font-size: 15px;
-    }
-    .btn {
-      display: inline-block;
-      background: var(--gold);
-      color: #111;
-      padding: 10px 22px;
-      border-radius: 8px;
-      font-weight: 700;
-      margin: 5px;
-      transition: 0.2s;
-    }
-    .btn:hover { background: var(--gold-light); }
-    .btn.secondary {
-      background: transparent;
-      border: 1px solid var(--gold);
-      color: var(--gold);
-    }
-
-    section { padding: 48px 0; }
-    h2 {
-      color: var(--gold);
-      font-size: 22px;
-      margin-bottom: 18px;
-    }
-    h2::after {
-      content: '';
-      display: block;
-      width: 45px;
-      height: 3px;
-      background: var(--gold);
-      margin-top: 7px;
-      border-radius: 2px;
-    }
-    h3 { color: var(--gold); font-size: 16.5px; margin-bottom: 8px; }
-    p, li { color: #ccc; font-size: 14.5px; }
-    ul { padding-right: 18px; margin: 8px 0; }
-    li { margin-bottom: 6px; }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 16px;
-    }
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      transition: 0.25s;
-    }
-    .card:hover {
-      background: var(--card-hover);
-      transform: translateY(-2px);
-    }
-
-    .article {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 14px;
-    }
-
-    .note {
-      background: #16120a;
-      border-right: 4px solid var(--gold);
-      padding: 15px 18px;
-      border-radius: 8px;
-      color: #ddd;
-      margin: 14px 0;
-    }
-
-    .ai-buttons {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      margin: 18px 0;
-    }
-    .ai-btn {
-      background: var(--card);
-      border: 1px solid var(--gold);
-      color: var(--gold);
-      padding: 12px 20px;
-      border-radius: 10px;
-      font-weight: 600;
-      font-size: 14px;
-      transition: 0.2s;
-    }
-    .ai-btn:hover {
-      background: rgba(212,175,55,0.15);
-    }
-
-    .prompt-box {
-      background: #111;
-      border: 1px solid #333;
-      border-radius: 10px;
-      padding: 14px 16px;
-      margin: 10px 0;
-      font-size: 13.5px;
-      color: #ddd;
-      direction: rtl;
-      white-space: pre-wrap;
-    }
-
-    .contact-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 14px;
-    }
-    .contact-links a {
-      border: 1px solid #4a3a1a;
-      padding: 9px 16px;
-      border-radius: 8px;
-      color: var(--gold);
-      font-size: 14px;
-    }
-    .contact-links a:hover {
-      background: rgba(212,175,55,0.1);
-    }
-
-    footer {
-      border-top: 1px solid var(--border);
-      padding: 26px 0;
-      text-align: center;
-      color: #777;
-      font-size: 13px;
-    }
-
-    @media (max-width: 600px) {
-      .profile-img { width: 120px; height: 120px; }
-      nav .links { width: 100%; text-align: center; margin-top: 8px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>محمد نجارنیکو | آموزش اصولی تحلیل بازار کریپتو و بازارهای مالی</title>
+<meta name="description" content="محمد نجارنیکو؛ مدرس و تحلیلگر کریپتو. یادگیری اصولی تحلیل بازار با روش ساختاری: ساختار، نقدینگی، ناحیه ورود و مدیریت ریسک. بیتکوین، اتریوم، اسمارت مانی و FVG.">
+<meta name="keywords" content="محمد نجارنیکو, آموزش کریپتو, تحلیل بیتکوین, اسمارت مانی, FVG, مدیریت ریسک">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/">
+<meta property="og:title" content="محمد نجارنیکو | آموزش اصولی تحلیل بازار">
+<meta property="og:description" content="اول اصول، بعد معامله. روش ساختاری تحلیل بازار کریپتو.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:image" content="https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/profile.jpg">
+<meta name="google-site-verification" content="dq6MSznC4OZGtdD-6Y6yI77zFwy9RqlPNQg7Q9zgplE">
+<meta name="theme-color" content="#07090d">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"محمد نجارنیکو","alternateName":"Mohammad Najarnikoo","jobTitle":"مدرس و تحلیلگر بازارهای مالی و ارزهای دیجیتال","url":"https://mohammadnajarnikoo.github.io/mohammad-najarnikoo-profile/","email":"mohammadnikoo.crypto@gmail.com","sameAs":["https://t.me/Mohammadnajarnikoo"],"knowsAbout":["بیتکوین","اتریوم","تحلیل تکنیکال","اسمارت مانی","مدیریت ریسک"]}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&amp;display=swap">
+<style>
+:root{--bg:#07090d;--card:#0e131b;--line:#1c2530;--tx:#e9eef5;--mut:#8b98a9;--ac:#f5b942;--ac2:#3ddc97;--red:#ff5c6c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f4ef;--card:#fff;--line:#e3ddd0;--tx:#14181f;--mut:#5d6675;--ac:#b57a00;--ac2:#0f9c63;--red:#d6303f;color-scheme:light}}
+:root[data-theme="dark"]{color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Vazirmatn,Tahoma,sans-serif;line-height:1.9;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:56px;gap:12px}
+nav b{font-weight:800;letter-spacing:.5px}nav b i{color:var(--ac);font-style:normal}
+nav .l{display:flex;gap:18px;font-size:14px;color:var(--mut);overflow-x:auto;white-space:nowrap}
+nav .l a:hover{color:var(--ac)}
+.hero{position:relative;padding:72px 0 56px;overflow:hidden}
+#cv{position:absolute;inset:0;width:100%;height:100%;opacity:.35}
+.hero .wrap{position:relative}
+.tag{display:inline-block;border:1px solid var(--ac);color:var(--ac);border-radius:99px;padding:2px 14px;font-size:13px}
+h1{font-size:clamp(34px,8vw,64px);line-height:1.35;margin:18px 0 12px;font-weight:800}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--mut);font-size:18px;max-width:600px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:12px 24px;border-radius:12px;font-weight:600;border:1px solid var(--line);background:var(--card)}
+.btn.p{background:var(--ac);color:#111;border-color:var(--ac)}
+section{padding:56px 0;border-top:1px solid var(--line)}
+h2{font-size:clamp(26px,5vw,38px);margin:0 0 8px;font-weight:800}
+.sub{color:var(--mut);margin:0 0 28px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--ac)}
+.n{font-size:34px;font-weight:800;color:var(--ac);line-height:1}
+.card h3{margin:8px 0 4px;font-size:18px}.card p{margin:0;color:var(--mut);font-size:15px}
+.quote{font-size:clamp(20px,4vw,28px);font-weight:600;line-height:1.8;border-right:4px solid var(--ac);padding-right:18px}
+.road{display:grid;gap:0}
+.road div{display:flex;gap:16px;padding:16px 0;border-bottom:1px dashed var(--line)}
+.road span{flex:none;width:38px;height:38px;border-radius:50%;background:var(--ac);color:#111;display:grid;place-items:center;font-weight:800}
+.road h3{margin:0;font-size:17px}.road p{margin:2px 0 0;color:var(--mut);font-size:15px}
+.calc{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+label{font-size:14px;color:var(--mut);display:block}
+input{width:100%;margin-top:4px;padding:11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--tx);font:inherit;direction:ltr;text-align:left}
+.res{margin-top:16px;display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}
+.res div{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px}
+.res small{color:var(--mut);display:block}.res b{font-size:22px;direction:ltr;display:inline-block}
+.warn{color:var(--red);font-size:14px;margin-top:10px;min-height:22px}
+.pills{display:flex;flex-wrap:wrap;gap:10px}
+.pills span{padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card);font-size:15px}
+.note{font-size:13px;color:var(--mut);margin-top:30px}
+.ais{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:28px}.ai{display:flex;flex-direction:column;gap:2px}.ai b{font-size:18px}.ai small{color:var(--mut)}.ai span{color:var(--ac);font-size:14px;margin-top:6px}.pr{margin-bottom:14px}.pr h3{margin:0 0 8px;font-size:17px}.pr pre{white-space:pre-wrap;word-break:break-word;font:inherit;font-size:15px;color:var(--mut);background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:14px;margin:0 0 10px}.cp{font:inherit;cursor:pointer;color:var(--tx)}.me{width:clamp(120px,30%,290px);aspect-ratio:3/4;object-fit:cover;object-position:top;border-radius:20px;border:2px solid var(--ac);float:left;margin:0 20px 14px 0}.ab{display:flex;gap:24px;align-items:center;flex-wrap:wrap}.ab img{width:min(240px,100%);border-radius:18px;border:1px solid var(--line)}.ab p{flex:1;min-width:240px;margin:0;color:var(--mut)}.dg svg{width:100%;height:auto;max-height:170px;background:var(--bg);border-radius:10px;margin-bottom:8px}.dg text{font-family:inherit}.tg{font-size:12px;padding:1px 10px;border-radius:99px;border:1px solid var(--ac2);color:var(--ac2)}.tg.d{border-color:var(--red);color:var(--red)}.tile{display:flex;flex-direction:column;gap:4px;min-height:104px;justify-content:center}.tile b{font-size:19px}.tile small{color:var(--mut);font-size:14px}.tile:hover b{color:var(--ac)}.bk{display:block;padding-top:22px;color:var(--ac);font-size:15px}select,textarea{width:100%;margin-top:4px;padding:11px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--tx);font:inherit}textarea{min-height:100px}.lk{display:block;padding:9px 0;border-bottom:1px dashed var(--line)}.lk small{color:var(--mut);display:block;font-size:13px}.lk:hover{color:var(--ac)}.btn{cursor:pointer;font:inherit;color:var(--tx)}.btn.p{color:#111}footer{padding:28px 0;text-align:center;color:var(--mut);font-size:13px;border-top:1px solid var(--line)}
+.rv{opacity:0;transform:translateY(20px);transition:.7s}.rv.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
 </head>
 <body>
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">MOHAMMAD NAJARNIKOO</div>
-        <div class="links">
-          <a href="#about">درباره</a>
-          <a href="#articles">مقالات</a>
-          <a href="#indicators">اندیکاتورها</a>
-          <a href="#styles">سبک‌ها</a>
-          <a href="#ai">هوش مصنوعی</a>
-          <a href="#contact">ارتباط</a>
-        </div>
-      </nav>
-    </div>
-  </header>
+<nav><div class="wrap"><b>NAJARNIKOO<i>.</i></b><div class="l"><a href="#home">خانه</a><a href="#about">درباره</a><a href="#news">اخبار و تحلیل</a><a href="#collab">همکاری</a><a href="#contact">ارتباط</a></div></div></nav>
 
-  <main>
-    <div class="hero">
-      <div class="container">
-        <img src="profile.jpg" alt="محمد نجارنیکو - مدرس و تحلیلگر کریپتو" class="profile-img">
-        <div class="eyebrow">کریپتو · بیتکوین · اتریوم · اسمارت مانی</div>
-        <h1>محمد نجارنیکو</h1>
-        <p>مدرس و تحلیلگر بازارهای مالی و ارزهای دیجیتال با تمرکز بر بیتکوین، اتریوم، تحلیل تکنیکال، اسمارت مانی و مدیریت ریسک</p>
-        <a class="btn" href="#about">آشنایی بیشتر</a>
-        <a class="btn secondary" href="#ai">تحلیل با هوش مصنوعی</a>
-      </div>
-    </div>
+<header class="hero"><canvas id="cv" aria-hidden="true"></canvas>
+<div class="wrap">
+<img class="me" alt="محمد نجارنیکو، مدرس و تحلیلگر کریپتو" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAcFBQYFBAcGBgYIBwcICxILCwoKCxYPEA0SGhYbGhkWGRgcICgiHB4mHhgZIzAkJiorLS4tGyIyNTEsNSgsLSz/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAJjAcwDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDCxRilpQKYxAKcKMU4CgBMUoFKBSgUAIBTgKAKcKAExSgUuKcBQA3FGKdijFACYpQKUClAoAMUYp2KAKAExRinYpcUANxS4pwFLigBuKMU7FLigBuKMU7FGKQDcUYp2KULQBHtpcU/FGKAGYpMU/FLtoAjxSYqTFGKAGYpMVJikxQAzFJtqTFIRQAzFJin4oxQAwim45qTFJjmmA3FNxUhFJigCMim4qQikxQAzFIRT8UhFADMUhFPIpCKAGEU0in03FIBuKMUuKKAGEUmKfikIpgMIpMU/FJigBmKTFPNNxQBNilApaXFACU4CgCnAUAJinAUAU4CgBMUoFLSgUAIBS4pcUuKAExS4pQKdigBoFLilApwFADQKdinAUuKAGgUuKdilxQAzbS4p+2jFADcUbaftpcUAR4pdtSbaNtAEe2jFS7aNtICPFJipdtGKYEe2kxUu2jbQBFtoxUmKTbQBHijFSbaNtAEeKTbUhWjbQBFto21Jik20AR4pMVLtpCtAEZWmkVIRSEUAREUhWpSKaRQBHikIqQimkUARkUhFSEU0igCMikxUhFNxQA3FNI5qQimkUAMxSEU+kxQAzFJin4pCKAGYpMU8im0AS4pQKXFOAoAQClxSilAoAAKUClApcUAIBTgKAOadigBMUoFOxTgtADQKdilApwFADdtLin4pcUANC0uKcBS4oAbilxTttKFoAbilC08LS7aAGYoxUm2gLQAzFLin7aULQBHijFSbaNtAEe2l21Jto20AR4o21KFpCtAEW2jbUu2k20ARFaNtS7aTbQBFtoK1JijFAEW2grUhFJigCLFIRUu2kIoAiIpu2piKbigCIik21LikIoAhIppFTEU0igCIimkVKRTStAERFIRUhFIRQBERSYqQrSYoAjxSEVJimkUAR0mKkIppFADCKaRUhFNoAmFKBSgUoFABinAUoFKBQAmKUCnAcUuKAEApwFKFpQKAACnAUAU8CgBMUoFOxSgUAJilApwFLtoAaBS4pwFO20ANApQtP20oWgBoWlAp2KUCgBu2gLT8U4KdpbBwOpx0oAj20oWgyIfMCMHaMZZRyajN3ApcNPGGC5Az1/z60XHYk25NLtwKw7jXYQgKy4DNgMGHHp2wf06Vly642CJpSrKTlxkZ6dRz+lK4WOuLLz8w496DLEn35UX6muHl1tnkQhh659vXIqG61mR4QjOGIO0g9G9Mj+tFx2O5+3Wm/b9oTPucVMCrdGB+leZjWZbdNu3gDpnIYUia1NHdRzWt1JCkgzhjnafT3/H1ouKx6fimla5C08WTKCZlSTBywUdfpXQWWvaffqBHcKHIztY4P8A9encC/jik209SGGQRS7aBEW2jbUm2jbQBHtppWpSKbigCPFJipCKTFAEZWm7akxRigCIrTSKlIppWgCIimkVKRSEUAREU0ipCKaRQBFikIqQimkUAR4ppFSYpCKAIyKTFONJQAwimkVIRTSKAGYpMU8ikoAlApwFAFOAoAAKcBQBTgKAEApwFAFOAoAQCnAUoFOAoAQCnAUoWngUANApwWnAU4CgBgWnAU8C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"><span class="tag">کریپتو · بیتکوین · اتریوم · اسمارت مانی</span>
+<h1>اول <em>اصول</em>،<br>بعد معامله.</h1>
+<p class="lead">من محمد نجارنیکو هستم؛ مدرس و تحلیلگر بازارهای مالی. تحلیل را مثل یک زبان یاد می‌دهم: اول قواعد، بعد جمله‌سازی. نه سیگنال، نه وعدهٔ سود؛ فقط یک روش روشن که خودت بتوانی با آن بازار را بخوانی.</p>
+<div class="btns"><a class="btn p" href="#method">روش تحلیل من</a><a class="btn" href="#tool">ابزار مدیریت ریسک</a></div>
+</div></header>
 
-    <div class="container">
+<section id="tiles"><div class="wrap"><h2 class="rv">از کجا شروع کنیم؟</h2><p class="sub rv">یکی را انتخاب کن تا وارد صفحهٔ خودش شوی.</p><div class="grid"><a class="card tile rv" href="#method"><b>روش چهارلایه</b><small>چهار سؤالی که هر تحلیل از آن می‌گذرد</small></a><a class="card tile rv" href="#about"><b>درباره من</b><small>مسیر و تجربهٔ من</small></a><a class="card tile rv" href="#path"><b>مسیر یادگیری</b><small>پنج پله، به ترتیب درست</small></a><a class="card tile rv" href="#articles"><b>مقالات</b><small>آموزش‌های کوتاه و کاربردی</small></a><a class="card tile rv" href="#indicators"><b>اندیکاتورها</b><small>RSI، MACD، بولینگر و بیشتر</small></a><a class="card tile rv" href="#styles"><b>اسمارت مانی</b><small>FVG، اوردر بلاک، BOS و CHoCH با شکل</small></a><a class="card tile rv" href="#candles"><b>کندل‌ها</b><small>الگوهای مهم همراه با شکل</small></a><a class="card tile rv" href="#psy"><b>روانشناسی بازار</b><small>ترس، طمع، FOMO و کنترل احساسات</small></a><a class="card tile rv" href="#tool"><b>ماشین‌حساب ریسک</b><small>حجم درست معامله را حساب کن</small></a><a class="card tile rv" href="#ai"><b>تحلیل با هوش مصنوعی</b><small>ابزارها و پرامپت‌های آماده</small></a><a class="card tile rv" href="#news"><b>اخبار و تحلیل‌ها</b><small>منابع معتبر، دسته‌بندی‌شده</small></a><a class="card tile rv" href="#collab"><b>دعوت به همکاری</b><small>یادگیری یا کار تیمی</small></a><a class="card tile rv" href="#contact"><b>ارتباط</b><small>تلگرام و ایمیل</small></a></div><h2 class="rv" style="margin-top:40px;font-size:24px">آموزش‌های مستقل</h2><div class="pills rv" style="margin-top:12px"><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="fvg.html">FVG چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="order-block.html">اوردر بلاک چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="bos-choch.html">BOS و CHoCH چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="smart-money.html">اسمارت مانی چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="rsi.html">RSI چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="risk-management.html">مدیریت ریسک چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="psychology.html">روانشناسی بازار</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="fomo.html">FOMO چیست؟</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="revenge-trading.html">معامله انتقامی</a><a style="padding:6px 16px;border:1px solid var(--line);border-radius:99px;background:var(--card)" href="trading-plan.html">پلن معاملاتی</a></div></div></section>
+<section id="method"><div class="wrap">
+<h2 class="rv">روش چهارلایه</h2>
+<p class="sub rv">هر تحلیل من از همین چهار سؤال می‌گذرد، همیشه به همین ترتیب.</p>
+<div class="grid">
+<div class="card rv"><div class="n">۱</div><h3>ساختار</h3><p>بازار الان صعودی است، نزولی یا خنثی؟ این‌جا BOS و CHoCH را می‌خوانیم.</p></div>
+<div class="card rv"><div class="n">۲</div><h3>نقدینگی</h3><p>پول بزرگ کجا دنبال سفارش‌هاست؟ قیمت معمولاً به سمت آن می‌رود.</p></div>
+<div class="card rv"><div class="n">۳</div><h3>ناحیه ورود</h3><p>Order Block و FVG؛ جایی که ورود، منطق و دلیل دارد.</p></div>
+<div class="card rv"><div class="n">۴</div><h3>ریسک</h3><p>قبل از ورود مشخص می‌کنیم اگر اشتباه کردیم چقدر ضرر می‌کنیم.</p></div>
+</div>
+<p class="quote rv" style="margin-top:36px">«بازار را نمی‌شود پیش‌بینی کرد، ولی می‌شود برایش برنامه داشت.»</p>
+</div></section>
 
-      <section id="about">
-        <h2>درباره محمد نجارنیکو</h2>
-        <p>
-          من محمد نجارنیکو هستم. از سال ۱۳۹۷ فعالیت خود را در بازارهای مالی و ارزهای دیجیتال آغاز کرده‌ام و از سال ۱۴۰۲ به صورت تخصصی در زمینه آموزش کریپتو، بیتکوین، اتریوم و تحلیل بازار فعالیت دارم.
-          تمرکز من بر آموزش کاربردی تحلیل تکنیکال، سبک‌های مدرن مثل اسمارت مانی و FVG، مدیریت ریسک و استفاده هوشمند از ابزارها است.
-        </p>
-      </section>
+<section id="about"><div class="wrap"><div class="ab"><img src="data:image/jpeg;base64,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" alt="محمد نجارنیکو" loading="lazy"><p><b style="color:var(--tx);font-size:22px">دربارهٔ محمد نجارنیکو</b><br>از سال ۱۳۹۷ در بازارهای مالی و ارزهای دیجیتال فعالیت می‌کنم و از ۱۴۰۲ به‌صورت تخصصی آموزش کریپتو، بیتکوین، اتریوم و تحلیل بازار را انجام می‌دهم. تمرکزم آموزش کاربردی، سبک‌های مدرن مثل اسمارت مانی و مدیریت ریسک است.</p></div></div></section>
+<section id="path"><div class="wrap">
+<h2 class="rv">مسیر یادگیری اصولی</h2>
+<p class="sub rv">ترتیب مهم است. پله‌ها را نپر.</p>
+<div class="road rv">
+<div><span>۱</span><section style="all:unset"><h3>بازار و روان‌شناسی</h3><p>بیتکوین، اتریوم، کیف پول و چرا اکثر معامله‌گران ضرر می‌کنند.</p></section></div>
+<div><span>۲</span><section style="all:unset"><h3>خواندن نمودار</h3><p>کندل، روند، حمایت و مقاومت و تایم‌فریم مناسب.</p></section></div>
+<div><span>۳</span><section style="all:unset"><h3>ابزارها، کم و دقیق</h3><p>RSI، میانگین متحرک، MACD و حجم. حداکثر دو یا سه ابزار همزمان.</p></section></div>
+<div><span>۴</span><section style="all:unset"><h3>اسمارت مانی</h3><p>Order Block، FVG، BOS، CHoCH و نقدینگی.</p></section></div>
+<div><span>۵</span><section style="all:unset"><h3>مدیریت ریسک و برنامه</h3><p>حجم معامله، حد ضرر و ژورنال معاملاتی.</p></section></div>
+</div></div></section>
 
-      <section id="articles">
-        <h2>مقالات کاربردی</h2>
+<section id="articles"><div class="wrap"><h2 class="rv">مقالات کاربردی</h2><p class="sub rv">کوتاه، ساده و قابل‌اجرا.</p><div class="grid"><div class="card rv"><h3>چرا اکثر معامله‌گران ضرر می‌کنند؟</h3><p>مهم‌ترین دلیل، نبود مدیریت ریسک و معامله احساسی است. قبل از ورود مشخص کن حداکثر چقدر حاضری ضرر کنی (معمولاً ۱ تا ۲ درصد سرمایه). هیچ تحلیلی ۱۰۰٪ درست نیست.</p></div><div class="card rv"><h3>تایم‌فریم مناسب برای مبتدی‌ها</h3><p>با ۴ ساعته و روزانه شروع کن. تایم‌فریم‌های خیلی پایین (۱ و ۵ دقیقه) پر از نویزند و تصمیم‌گیری را سخت می‌کنند.</p></div><div class="card rv"><h3>تفاوت اندیکاتور و اسیلاتور</h3><p>اندیکاتورها روی قیمت یا حجم کار می‌کنند (مثل میانگین متحرک). اسیلاتورها بین دو سطح نوسان می‌کنند (مثل RSI) و اشباع خرید و فروش را نشان می‌دهند.</p></div><div class="card rv"><h3>نسبت ریسک به ریوارد</h3><p>اگر در هر معامله ۱ واحد ریسک می‌کنی و ۲ واحد سود هدف داری، حتی با ۴۰٪ معاملهٔ درست هم می‌توانی سودده بمانی.</p></div><div class="card rv"><h3>ژورنال معاملاتی</h3><p>هر معامله را با دلیل ورود، نتیجه و احساس خودت یادداشت کن. بعد از ۳۰ معامله الگوی اشتباه‌هایت را می‌بینی.</p></div></div></div></section>
+<section id="indicators"><div class="wrap"><h2 class="rv">اندیکاتورها و اسیلاتورها</h2><p class="sub rv">توصیه: بیشتر از ۲ یا ۳ ابزار همزمان استفاده نکن تا سردرگم نشوی.</p><div class="grid"><div class="card rv"><h3>RSI</h3><p>بین ۰ تا ۱۰۰. بالای ۷۰ اشباع خرید، زیر ۳۰ اشباع فروش. برای دیدن واگرایی و نقطهٔ برگشت مفید است.</p></div><div class="card rv"><h3>میانگین متحرک</h3><p>روند را نشان می‌دهد. ۵۰ و ۲۰۰ دوره محبوب‌ترین‌اند. قیمت بالای آن معمولاً یعنی روند صعودی.</p></div><div class="card rv"><h3>MACD</h3><p>ترکیب دو میانگین متحرک. تقاطع با خط سیگنال و عبور از خط صفر، تغییر روند را خبر می‌دهد.</p></div><div class="card rv"><h3>حجم معاملات</h3><p>قدرت حرکت را تأیید می‌کند. رشد قیمت همراه با حجم زیاد، قابل اعتمادتر است.</p></div><div class="card rv"><h3>باندهای بولینگر</h3><p>نوسان را نشان می‌دهد. وقتی باندها تنگ شوند، معمولاً حرکت قوی در راه است.</p></div><div class="card rv"><h3>استوکاستیک</h3><p>اسیلاتور سریع برای اشباع خرید و فروش، مخصوصاً در تایم‌فریم‌های پایین.</p></div></div></div></section>
+<section id="styles"><div class="wrap"><h2 class="rv">اسمارت مانی با شکل</h2><p class="sub rv">این سبک بر پایهٔ رفتار بازیگران بزرگ بازار (بانک‌ها و مؤسسات) است. چهار مفهوم کلیدی:</p><div class="grid"><div class="card rv dg"><div data-k="fvg"></div><h3>FVG؛ شکاف ارزش منصفانه</h3><p>وقتی بین کندل اول و سوم یک شکاف قیمتی پر نشده بماند، قیمت معمولاً برای پر کردنش برمی‌گردد. در شکل، قیمت به ناحیهٔ زرد برگشته و از آن بالا رفته.</p></div><div class="card rv dg"><div data-k="ob"></div><h3>اوردر بلاک</h3><p>آخرین کندل مخالف قبل از یک حرکت قوی. وقتی قیمت به آن ناحیه برگردد، اغلب واکنش نشان می‌دهد.</p></div><div class="card rv dg"><div data-k="bos"></div><h3>BOS؛ شکست ساختار</h3><p>قیمت سقف قبلی را می‌شکند و روند ادامه پیدا می‌کند.</p></div><div class="card rv dg"><div data-k="choch"></div><h3>CHoCH؛ تغییر ماهیت</h3><p>در روند صعودی، قیمت کف مهم قبلی را می‌شکند. نشانهٔ احتمال تغییر روند.</p></div></div></div></section>
+<section id="candles"><div class="wrap"><h2 class="rv">کندل‌ها و ترکیب کندل‌های مهم</h2><p class="sub rv">هیچ الگویی تنهایی کافی نیست. همیشه با روند، ناحیه و حجم تأیید کن.</p><div class="grid" id="pt"></div></div></section>
+<section id="psy"><div class="wrap"><h2 class="rv">روانشناسی بازار</h2><p class="sub rv">تحلیل خوب بدون کنترل احساسات کافی نیست. بیشتر ضررها از تصمیم‌های هیجانی می‌آید، نه از نبود دانش.</p><div class="card rv" style="margin-bottom:14px"><h3>چرخهٔ احساسات در بازار</h3><div class="dg"><svg viewBox="0 0 320 170" role="img" aria-label="چرخهٔ احساسات بازار"><path d="M10,115 C40,95 60,50 105,28 C145,12 150,60 172,92 C192,122 205,142 225,142 C255,142 262,112 310,62" fill="none" stroke="var(--ac)" stroke-width="2.5"/><g fill="var(--tx)" font-size="11" text-anchor="middle"><text x="26" y="134">امید</text><text x="52" y="58">خوش‌بینی</text><text x="108" y="18">سرخوشی (اوج طمع)</text><text x="160" y="66">اضطراب</text><text x="195" y="108">ترس</text><text x="228" y="160">تسلیم و ناامیدی</text><text x="290" y="48">امید دوباره</text></g></svg></div><p>نمودار مفهومی است. بازار معمولاً در اوج طمع بیشترین هیجان و در پایین‌ترین نقطه بیشترین ترس را دارد؛ و بیشتر افراد درست برعکس تصمیم می‌گیرند.</p></div><div class="grid"><div class="card rv"><h3>ترس</h3><p>باعث می‌شود زود از معامله خارج شوی یا فرصت خوب را از دست بدهی.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: حد ضرر و حجم را قبل از ورود مشخص کن.</p></div><div class="card rv"><h3>طمع</h3><p>حجم را بزرگ می‌کند و هدف را مدام جابه‌جا می‌کند.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: هدف و حجم را قبل از ورود بنویس و تغییرش نده.</p></div><div class="card rv"><h3>FOMO؛ ترس از جا ماندن</h3><p>وقتی قیمت پرواز کرده، با عجله وارد می‌شوی.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: فقط از روی پلن وارد شو؛ بازار فرصت بعدی را دارد.</p></div><div class="card rv"><h3>معامله انتقامی</h3><p>بعد از ضرر، فوری معامله می‌کنی تا جبران شود.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: بعد از ضرر مکث کن؛ حد ضرر روزانه تعیین کن.</p></div><div class="card rv"><h3>اعتمادبه‌نفس کاذب</h3><p>بعد از چند برد، ریسک را بالا می‌بری.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: ریسک را ثابت نگه دار؛ ۱ تا ۲ درصد.</p></div><div class="card rv"><h3>نگه داشتن معامله بازنده</h3><p>قبول نمی‌کنی که اشتباه کرده‌ای و حد ضرر را برمی‌داری.</p><p style="color:var(--ac2);margin-top:6px">راه‌حل: حد ضرر مقدس است؛ اشتباه جزو کار است.</p></div></div><p class="note">اگر معامله‌گری باعث استرس شدید یا فشار مالی جدی شده، با یک مشاور یا فرد مورد اعتماد صحبت کن. این محتوا آموزشی است.</p></div></section>
+<section id="tool"><div class="wrap">
+<h2 class="rv">ماشین‌حساب مدیریت ریسک</h2>
+<p class="sub rv">قبل از هر معامله، حجم درست را حساب کن.</p>
+<div class="card">
+<div class="calc">
+<label>سرمایه (دلار)<input id="cap" type="number" value="1000" inputmode="decimal"></label>
+<label>ریسک هر معامله (٪)<input id="rk" type="number" value="1" step="0.1" inputmode="decimal"></label>
+<label>قیمت ورود<input id="en" type="number" value="100" inputmode="decimal"></label>
+<label>قیمت حد ضرر<input id="sl" type="number" value="95" inputmode="decimal"></label>
+</div>
+<div class="res">
+<div><small>حداکثر ضرر</small><b id="o1">-</b></div>
+<div><small>حجم پوزیشن (واحد)</small><b id="o2">-</b></div>
+<div><small>ارزش پوزیشن (دلار)</small><b id="o3">-</b></div>
+</div>
+<div class="warn" id="w"></div>
+</div>
+<p class="note">این ابزار فقط محاسبه است و توصیهٔ مالی نیست.</p>
+</div></section>
 
-        <div class="article">
-          <h3>۱. چرا اکثر معامله‌گران ضرر می‌کنند؟</h3>
-          <p>
-            مهم‌ترین دلیل، نبود مدیریت ریسک و معامله احساسی است. قبل از ورود به هر معامله، مشخص کنید حداکثر چقدر حاضرید ضرر کنید (معمولاً ۱ تا ۲ درصد سرمایه). هیچ تحلیلی ۱۰۰٪ درست نیست.
-          </p>
-        </div>
+<section id="ai"><div class="wrap">
+<h2 class="rv">تحلیل آنلاین با هوش مصنوعی</h2>
+<p class="sub rv">یکی از ابزارها را باز کن، پرامپت را کپی و جایگزین کن، و نمودارت را به‌صورت عکس بفرست.</p>
+<div class="ais rv">
+<a class="card ai" href="https://claude.ai" target="_blank" rel="noopener"><b>Claude</b><small>تحلیل دقیق و توضیح ساده</small><span>باز کردن ←</span></a>
+<a class="card ai" href="https://chatgpt.com" target="_blank" rel="noopener"><b>ChatGPT</b><small>تحلیل نمودار و جستجوی وب</small><span>باز کردن ←</span></a>
+<a class="card ai" href="https://gemini.google.com" target="_blank" rel="noopener"><b>Gemini</b><small>اخبار و داده‌های به‌روز</small><span>باز کردن ←</span></a>
+<a class="card ai" href="https://www.perplexity.ai" target="_blank" rel="noopener"><b>Perplexity</b><small>جستجوی لحظه‌ای با منبع</small><span>باز کردن ←</span></a>
+</div>
+<div class="card pr rv"><h3>۱. تحلیل چهارلایه از روی عکس نمودار</h3><pre>تو یک تحلیلگر بازار کریپتو هستی. عکس نمودار [نام ارز] در تایم‌فریم [مثلاً ۴ ساعته] را تحلیل کن، دقیقاً به این ترتیب:
+۱. ساختار: روند صعودی، نزولی یا خنثی؟ آیا BOS یا CHoCH رخ داده؟
+۲. نقدینگی: سقف‌ها و کف‌های مهمی که سفارش‌ها پشتشان است کجاست؟
+۳. ناحیه ورود: Order Block و FVG مهم کدام‌اند؟
+۴. ریسک: حد ضرر منطقی و دو هدف احتمالی.
+ساده و بدون اصطلاح پیچیده توضیح بده و آخر بگو چه اتفاقی تحلیل را باطل می‌کند.</pre><button class="btn cp">کپی پرامپت</button></div>
+<div class="card pr rv"><h3>۲. اخبار و اتفاق‌های مهم امروز (با جستجوی وب)</h3><pre>با جستجوی وب، ۵ خبر یا رویداد مهم امروز که روی قیمت [بیتکوین/اتریوم] اثر دارد را پیدا کن. برای هر مورد بنویس: خلاصه، منبع، و اینکه چرا ممکن است روی بازار اثر بگذارد. در پایان بگو کدام مورد را باید زیر نظر بگیرم.</pre><button class="btn cp">کپی پرامپت</button></div>
+<div class="card pr rv"><h3>۳. بررسی چندتایم‌فریمی</h3><pre>من سه عکس از نمودار [نام ارز] می‌فرستم: روزانه، ۴ ساعته و ۱ ساعته. از بالا به پایین تحلیل کن: روند اصلی چیست؟ آیا تایم‌فریم‌ها هم‌جهت‌اند یا متناقض؟ بهترین سناریوی صعودی و نزولی کدام است؟ اگر تناقض هست صریح بگو بهتر است معامله نکنم.</pre><button class="btn cp">کپی پرامپت</button></div>
+<div class="card pr rv"><h3>۴. نقد برنامهٔ معامله (مثل مربی سخت‌گیر)</h3><pre>این برنامهٔ معامله من است: ورود [..]، حد ضرر [..]، هدف [..]، سرمایه [..]، ریسک [..٪]. بی‌رحمانه نقدش کن: نسبت ریسک به سود چیست؟ حد ضرر منطقی است؟ چه چیزی را ندیده‌ام؟ آخر یک امتیاز از ۱۰ بده و بگو چطور بهترش کنم.</pre><button class="btn cp">کپی پرامپت</button></div>
+<p class="note">هوش مصنوعی ممکن است اشتباه کند و همیشه به قیمت لحظه‌ای دسترسی ندارد. قیمت را از صرافی یا TradingView ببین و عکس نمودار بده. خروجی آن توصیهٔ مالی نیست و تصمیم نهایی با خودت است.</p>
+</div></section>
+<section id="topics"><div class="wrap">
+<h2 class="rv">موضوعاتی که آموزش می‌دهم</h2>
+<p class="sub rv">هر کدام به‌زودی صفحهٔ آموزشی جدا دارد.</p>
+<div class="pills rv"><span>تحلیل بیتکوین</span><span>اتریوم</span><span>اسمارت مانی</span><span>FVG</span><span>Order Block</span><span>BOS و CHoCH</span><span>RSI</span><span>MACD</span><span>فیوچرز</span><span>NFT</span><span>مدیریت ریسک</span></div>
+</div></section>
 
-        <div class="article">
-          <h3>۲. تایم‌فریم مناسب برای مبتدی‌ها</h3>
-          <p>
-            برای شروع، از تایم‌فریم ۴ ساعته و روزانه استفاده کنید. تایم‌فریم‌های خیلی پایین (۱ دقیقه و ۵ دقیقه) پر از نویز هستند و تصمیم‌گیری را سخت می‌کنند.
-          </p>
-        </div>
+<section id="news"><div class="wrap"><h2 class="rv">اخبار و تحلیل‌ها</h2><p class="sub rv" id="td"></p><div class="grid"><div class="card rv"><h3>اخبار کریپتو</h3><a class="lk" href="https://www.coindesk.com" target="_blank" rel="noopener">CoinDesk<small>اخبار و تحلیل بازار</small></a><a class="lk" href="https://cointelegraph.com" target="_blank" rel="noopener">Cointelegraph<small>اخبار روزانه</small></a><a class="lk" href="https://www.theblock.co" target="_blank" rel="noopener">The Block<small>اخبار و داده</small></a><a class="lk" href="https://decrypt.co" target="_blank" rel="noopener">Decrypt<small>اخبار ساده‌تر برای عموم</small></a><a class="lk" href="https://coinmarketcap.com/headlines/news/" target="_blank" rel="noopener">CoinMarketCap<small>تیتر روز</small></a><a class="lk" href="https://arzdigital.com" target="_blank" rel="noopener">ارزدیجیتال<small>اخبار فارسی</small></a></div><div class="card rv"><h3>تقویم و اقتصاد جهانی</h3><a class="lk" href="https://www.investing.com/economic-calendar/" target="_blank" rel="noopener">تقویم اقتصادی<small>رویدادهای مهم مثل نرخ بهره و تورم</small></a><a class="lk" href="https://www.tradingview.com/news/" target="_blank" rel="noopener">TradingView News<small>اخبار بازارهای مالی</small></a></div><div class="card rv"><h3>احساس و داده‌های بازار</h3><a class="lk" href="https://alternative.me/crypto/fear-and-greed-index/" target="_blank" rel="noopener">شاخص ترس و طمع<small>حال‌وهوای کلی بازار</small></a><a class="lk" href="https://www.coinglass.com" target="_blank" rel="noopener">CoinGlass<small>فیوچرز و نقدشوندگی</small></a><a class="lk" href="https://defillama.com" target="_blank" rel="noopener">DefiLlama<small>ارزش قفل‌شده در دیفای</small></a></div><div class="card rv"><h3>تحلیل‌ها به تفکیک ارز</h3><a class="lk" href="https://www.tradingview.com/symbols/BTCUSD/ideas/" target="_blank" rel="noopener">تحلیل‌های بیتکوین<small>ایده‌های کاربران TradingView</small></a><a class="lk" href="https://www.tradingview.com/symbols/ETHUSD/ideas/" target="_blank" rel="noopener">تحلیل‌های اتریوم<small>ایده‌های کاربران TradingView</small></a><a class="lk" href="https://www.tradingview.com/symbols/SOLUSD/ideas/" target="_blank" rel="noopener">تحلیل‌های سولانا<small>ایده‌های کاربران TradingView</small></a><a class="lk" href="https://www.tradingview.com/markets/cryptocurrencies/ideas/" target="_blank" rel="noopener">همهٔ ارزها<small>جدیدترین ایده‌ها</small></a></div></div><p class="note">این صفحه به منابع معتبر لینک می‌دهد و خودکار تیتر نمی‌گیرد. هر خبر یا تحلیل در سایت خودش باز می‌شود. نظر آن‌ها لزوماً نظر من نیست و توصیهٔ مالی نیست.</p></div></section>
+<section id="collab"><div class="wrap"><h2 class="rv">دعوت به همکاری</h2><p class="sub rv">دو راه برای شروع با من:</p><div class="grid"><div class="card rv"><h3>می‌خواهم آموزش ببینم</h3><p>برای کسانی که از صفر شروع می‌کنند یا تحلیل را پراکنده یاد گرفته‌اند و می‌خواهند اصولی و قدم‌به‌قدم پیش بروند: بازار، نمودار، روش چهارلایه، مدیریت ریسک.</p></div><div class="card rv"><h3>در بازار فعالم و کار تیمی می‌خواهم</h3><p>برای معامله‌گران و تحلیلگران فعال که دوست دارند تحلیل تبادل کنند، همدیگر را نقد کنند و با هم رشد کنند. هیچ وعدهٔ سودی داده نمی‌شود؛ تمرکز روی یادگیری و انضباط است.</p></div></div>
+<div class="card rv" style="margin-top:14px"><h3>درخواست همکاری</h3><div class="calc"><label>نوع درخواست<select id="ft"><option>می‌خواهم آموزش ببینم</option><option>کار تیمی (فعال در بازار)</option></select></label><label>نام<input id="fn" style="direction:rtl;text-align:right"></label><label>راه ارتباطی (تلگرام یا ایمیل)<input id="fc"></label></div><label style="margin-top:12px">سطح و تجربه، و هدفت<textarea id="fm"></textarea></label><div class="btns"><button class="btn p" id="fe">ارسال با ایمیل</button><button class="btn" id="ftg">ارسال در تلگرام</button></div><p class="note" id="fh">ایمیل در برنامهٔ ایمیل خودت باز می‌شود. برای تلگرام، متن کپی می‌شود تا در گفتگو بچسبانی.</p></div></div></section>
+<section id="contact"><div class="wrap">
+<h2 class="rv">ارتباط</h2>
+<p class="sub rv">برای آموزش، همکاری یا سؤال، پیام بده.</p>
+<div class="btns rv"><a class="btn p" href="https://t.me/Mohammadnajarnikoo" target="_blank" rel="noopener">تلگرام</a><a class="btn" href="mailto:mohammadnikoo.crypto@gmail.com">ایمیل</a></div>
+<p class="note">محتوای این سایت آموزشی است و توصیهٔ مالی یا سیگنال معاملاتی نیست. بازارهای مالی ریسک دارند.</p>
+</div></section>
+<footer>© محمد نجارنیکو</footer>
 
-        <div class="article">
-          <h3>۳. تفاوت اندیکاتور و اسیلاتور</h3>
-          <p>
-            اندیکاتورها معمولاً روی قیمت یا حجم کار می‌کنند (مثل میانگین متحرک). اسیلاتورها بین دو سطح مشخص نوسان می‌کنند (مثل RSI و Stochastic) و برای تشخیص اشباع خرید و فروش مناسب‌اند.
-          </p>
-        </div>
-      </section>
+<script>
+(function(){
+var c=document.getElementById('cv'),x=c.getContext('2d'),W,H,cs=[],t=0;
+function rs(){W=c.width=c.offsetWidth;H=c.height=c.offsetHeight;cs=[];var p=H*.6;for(var i=0;i<Math.ceil(W/14)+2;i++){var o=p,d=(Math.random()-.46)*H*.05;p=Math.max(H*.2,Math.min(H*.85,p+d));cs.push({o:o,c:p,h:Math.random()*14,l:Math.random()*14})}}
+function dr(){x.clearRect(0,0,W,H);var st=getComputedStyle(document.documentElement),g=st.getPropertyValue('--ac2'),r=st.getPropertyValue('--red');t+=.01;
+for(var i=0;i<cs.length;i++){var k=cs[i],cx=i*14+Math.sin(t)*3-7,up=k.c<k.o;x.strokeStyle=x.fillStyle=up?g:r;x.beginPath();x.moveTo(cx+4,Math.min(k.o,k.c)-k.h);x.lineTo(cx+4,Math.max(k.o,k.c)+k.l);x.stroke();x.fillRect(cx,Math.min(k.o,k.c),8,Math.max(3,Math.abs(k.o-k.c)))}
+if(!matchMedia('(prefers-reduced-motion:reduce)').matches)requestAnimationFrame(dr)}
+rs();dr();addEventListener('resize',function(){rs();dr()});
+var io=new IntersectionObserver(function(e){e.forEach(function(z){if(z.isIntersecting)z.target.classList.add('on')})},{threshold:.15});
+document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+function f(n){return isFinite(n)?n.toLocaleString('en-US',{maximumFractionDigits:4}):'-'}
+function calc(){var cap=+cap_.value,rk=+rk_.value,en=+en_.value,sl=+sl_.value,w=document.getElementById('w'),d=Math.abs(en-sl);
+if(!(cap>0&&rk>0&&d>0)){o1.textContent=o2.textContent=o3.textContent='-';w.textContent='';return}
+var loss=cap*rk/100,q=loss/d,v=q*en;o1.textContent='$'+f(loss);o2.textContent=f(q);o3.textContent='$'+f(v);
+w.textContent=rk>2?'ریسک بالاتر از ۲٪ برای اکثر معامله‌گران خطرناک است.':(v>cap?'ارزش پوزیشن از سرمایه بیشتر است؛ یعنی اهرم لازم دارید.':'')}
+var cap_=document.getElementById('cap'),rk_=document.getElementById('rk'),en_=document.getElementById('en'),sl_=document.getElementById('sl'),o1=document.getElementById('o1'),o2=document.getElementById('o2'),o3=document.getElementById('o3');
+[cap_,rk_,en_,sl_].forEach(function(e){e.addEventListener('input',calc)});calc();
+document.querySelectorAll('.cp').forEach(function(b){b.addEventListener('click',function(){var t=b.previousElementSibling.textContent,ok=function(){b.textContent='کپی شد ✓';setTimeout(function(){b.textContent='کپی پرامپت'},1800)};try{navigator.clipboard.writeText(t).then(ok,function(){b.textContent='دستی کپی کنید'})}catch(e){b.textContent='دستی کپی کنید'}})});
+var P=[["دوجی","خنثی","باز و بسته‌شدن تقریباً برابر؛ تردید خریدار و فروشنده.",[[50,80,20,51]]],["چکش","صعودی","بدنهٔ کوچک و سایهٔ بلند پایین بعد از ریزش؛ فشار خریدار.",[[85,86,72,74],[74,75,62,63],[55,61,25,60]]],["ستارهٔ دنباله‌دار","نزولی","سایهٔ بلند بالا بعد از رشد؛ فروشنده‌ها قیمت را پایین کشیدند.",[[20,35,19,32],[32,48,31,46],[50,88,46,48]]],["انگالف صعودی","صعودی","کندل سبز بزرگ، کندل قرمز قبلی را کامل می‌پوشاند.",[[70,71,58,60],[56,57,45,47],[44,76,43,74]]],["انگالف نزولی","نزولی","کندل قرمز بزرگ، کندل سبز قبلی را کامل می‌پوشاند.",[[30,42,29,40],[42,55,41,53],[56,57,24,26]]],["ستارهٔ صبحگاهی","صعودی","سه کندل: قرمز بزرگ، کندل کوچک، سبز بزرگ.",[[82,83,60,62],[55,57,47,52],[56,84,55,80]]],["ستارهٔ شامگاهی","نزولی","سه کندل: سبز بزرگ، کندل کوچک، قرمز بزرگ.",[[30,52,29,50],[56,66,53,60],[56,57,24,28]]],["سه سرباز سفید","صعودی","سه کندل سبز پشت‌سرهم با بسته‌شدن بالاتر؛ ادامهٔ رشد.",[[30,42,29,40],[40,54,39,52],[52,66,51,64]]]];
+var K={fvg:{c:[[40,52,38,50],[50,82,49,80],[80,92,62,90],[90,91,56,58],[58,76,57,74]],h:[0,4,52,62,"FVG"]},ob:{c:[[55,58,44,46],[50,52,38,40],[40,85,39,83],[83,90,75,80],[80,81,49,52],[52,82,50,80]],h:[1,5,40,50,"OB"]},bos:{c:[[30,40,28,38],[38,55,36,52],[52,53,42,44],[44,68,43,66],[66,67,56,58]],l:[1,55,3,"BOS"]},choch:{c:[[30,42,29,40],[40,58,38,56],[56,57,44,46],[46,70,45,68],[68,69,52,54],[54,55,36,38]],l:[2,44,5,"CHoCH"]}};
+function sv(cs,hl,ln){var y=function(v){return 122-v*1.1},W=cs.length*38+24,s='<svg viewBox="0 0 '+W+' 130" role="img">',X=function(i){return 12+i*38};
+if(hl)s+='<rect x="'+X(hl[0])+'" y="'+y(hl[3])+'" width="'+((hl[1]-hl[0]+1)*38)+'" height="'+(y(hl[2])-y(hl[3]))+'" fill="var(--ac)" fill-opacity=".25" stroke="var(--ac)" stroke-dasharray="4"/><text x="'+(X(hl[0])+4)+'" y="'+(y(hl[3])-3)+'" fill="var(--ac)" font-size="11">'+hl[4]+'</text>';
+cs.forEach(function(c,i){var x=X(i)+19,col=c[3]>=c[0]?"var(--ac2)":"var(--red)";s+='<line x1="'+x+'" x2="'+x+'" y1="'+y(c[1])+'" y2="'+y(c[2])+'" stroke="'+col+'" stroke-width="2"/><rect x="'+(x-9)+'" y="'+y(Math.max(c[0],c[3]))+'" width="18" height="'+Math.max(2,Math.abs(y(c[0])-y(c[3])))+'" fill="'+col+'"/>'});
+if(ln)s+='<line x1="'+(X(ln[0])+19)+'" x2="'+(X(ln[2])+19)+'" y1="'+y(ln[1])+'" y2="'+y(ln[1])+'" stroke="var(--tx)" stroke-dasharray="3"/><text x="'+(X(ln[2])+22)+'" y="'+(y(ln[1])-3)+'" fill="var(--tx)" font-size="11">'+ln[3]+'</text>';
+return s+'</svg>'}
+document.querySelectorAll('[data-k]').forEach(function(e){var k=K[e.dataset.k];e.innerHTML=sv(k.c,k.h,k.l)});
+document.getElementById('pt').innerHTML=P.map(function(p){return '<div class="card dg">'+sv(p[3])+'<h3>'+p[0]+' <span class="tg'+(p[1]=="نزولی"?" d":"")+'">'+p[1]+'</span></h3><p>'+p[2]+'</p></div>'}).join('');
 
-      <section id="indicators">
-        <h2>اندیکاتورها و اسیلاتورهای کاربردی</h2>
-        <div class="grid">
-          <div class="card">
-            <h3>RSI (شاخص قدرت نسبی)</h3>
-            <p>بین ۰ تا ۱۰۰ نوسان می‌کند. بالای ۷۰ اشباع خرید و زیر ۳۰ اشباع فروش است. برای تشخیص واگرایی و نقاط برگشت بسیار مفید است.</p>
-          </div>
-          <div class="card">
-            <h3>Moving Average (میانگین متحرک)</h3>
-            <p>روند را مشخص می‌کند. میانگین ۵۰ و ۲۰۰ دوره محبوب‌ترین‌ها هستند. قیمت بالای میانگین متحرک معمولاً نشانه روند صعودی است.</p>
-          </div>
-          <div class="card">
-            <h3>MACD</h3>
-            <p>ترکیب دو میانگین متحرک است. تقاطع خط مکدی با خط سیگنال و عبور از خط صفر، سیگنال‌های خوبی برای تغییر روند می‌دهد.</p>
-          </div>
-          <div class="card">
-            <h3>Volume (حجم معاملات)</h3>
-            <p>قدرت حرکت را تأیید می‌کند. افزایش قیمت همراه با افزایش حجم = حرکت قوی‌تر و قابل اعتمادتر است.</p>
-          </div>
-          <div class="card">
-            <h3>Bollinger Bands</h3>
-            <p>نوسان بازار را نشان می‌دهد. وقتی باندها تنگ می‌شوند، معمولاً یک حرکت قوی در راه است (فشردگی قبل از انفجار).</p>
-          </div>
-          <div class="card">
-            <h3>Stochastic</h3>
-            <p>اسیلاتور سریع برای تشخیص اشباع خرید و فروش، مخصوصاً در تایم‌فریم‌های پایین‌تر کاربرد دارد.</p>
-          </div>
-        </div>
-
-        <div class="note" style="margin-top: 20px;">
-          توصیه: از ترکیب بیش از ۲ یا ۳ ابزار همزمان خودداری کنید تا دچار سردرگمی نشوید.
-        </div>
-      </section>
-
-      <section id="styles">
-        <h2>سبک‌های معاملاتی مهم</h2>
-
-        <div class="article">
-          <h3>اسمارت مانی (Smart Money Concepts)</h3>
-          <p>
-            این سبک بر پایه رفتار بازیگران بزرگ بازار (بانک‌ها و مؤسسات) بنا شده است. مفاهیم کلیدی آن عبارتند از:
-            <br>• Order Block
-            <br>• Break of Structure (BOS)
-            <br>• Change of Character (CHoCH)
-            <br>• نقدینگی (Liquidity)
-            <br>هدف این سبک، معامله در جهت حرکت پول هوشمند است.
-          </p>
-        </div>
-
-        <div class="article">
-          <h3>FVG (Fair Value Gap)</h3>
-          <p>
-            شکاف ارزش منصفانه. وقتی بین سه کندل یک گپ قیمتی ایجاد شود که هنوز پر نشده باشد، معمولاً قیمت تمایل دارد به آن ناحیه برگردد. یکی از ابزارهای پرکاربرد در سبک اسمارت مانی است.
-          </p>
-        </div>
-
-        <div class="article">
-          <h3>Order Block</h3>
-          <p>
-            آخرین کندل مخالف قبل از یک حرکت قوی. این نواحی اغلب محل ورود دوباره بازیگران بزرگ هستند و به عنوان حمایت یا مقاومت قوی عمل می‌کنند.
-          </p>
-        </div>
-
-        <div class="article">
-          <h3>Break of Structure (BOS) و CHoCH</h3>
-          <p>
-            BOS نشان‌دهنده ادامه روند است. CHoCH نشان‌دهنده احتمال تغییر روند است. تشخیص این دو مفهوم در تایم‌فریم بالاتر
+var tdE=document.getElementById('td');try{tdE.textContent='امروز '+new Date().toLocaleDateString('fa-IR',{dateStyle:'full'})+'؛ منابع معتبر به تفکیک موضوع:'}catch(e){tdE.textContent='منابع معتبر به تفکیک موضوع:'}
+function ft(){return 'نوع: '+document.getElementById('ft').value+'\nنام: '+document.getElementById('fn').value+'\nارتباط: '+document.getElementById('fc').value+'\n'+document.getElementById('fm').value}
+document.getElementById('fe').onclick=function(){location.href='mailto:mohammadnikoo.crypto@gmail.com?subject='+encodeURIComponent('درخواست همکاری')+'&body='+encodeURIComponent(ft())};
+document.getElementById('ftg').onclick=function(){var h=document.getElementById('fh');try{navigator.clipboard.writeText(ft()).then(function(){h.textContent='متن کپی شد؛ در تلگرام بچسبان.'})}catch(e){}window.open('https://t.me/Mohammadnajarnikoo','_blank')};
+var SC=document.querySelectorAll('body>section');SC.forEach(function(s){if(s.id!='tiles'&&s.id!='topics'){var a=document.createElement('a');a.className='wrap bk';a.href='#home';a.textContent='→ بازگشت به صفحهٔ اصلی';s.insertBefore(a,s.firstChild)}});
+function route(){var v=location.hash.slice(1),e=document.getElementById(v);if(!e||e.tagName!='SECTION'||v=='tiles'||v=='topics')v='home';var hm=v=='home';document.querySelector('.hero').style.display=hm?'block':'none';SC.forEach(function(s){s.style.display=(s.id==v||(hm&&(s.id=='tiles'||s.id=='topics')))?'block':'none'});document.title=hm?'محمد نجارنیکو | آموزش اصولی تحلیل بازار کریپتو و بازارهای مالی':(document.querySelector('#'+v+' h2')||document.querySelector('#'+v+' b')).textContent+' | محمد نجارنیکو';window.scrollTo(0,0)}
+addEventListener('hashchange',route);route();
+})();
+</script>
+</body>
+</html>
